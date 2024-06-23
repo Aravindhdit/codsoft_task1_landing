@@ -1,0 +1,418 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.top-bar {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-bar .contact-info {
+    font-size: 14px;
+}
+
+.top-bar .social-icons img {
+    width: 20px;
+    margin-left: 10px;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+header .logo h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+}
+
+.cta-button {
+    background: #ff4757;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+.hero {
+    background: url('hero-bg.jpg') no-repeat center center/cover;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero h1 {
+    font-size: 48px;
+    margin: 20px 0;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 40px;
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    width: 30%;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    text-align: center;
+    border-radius: 5px;
+}
+
+.card img {
+    width: 50px;
+    margin-bottom: 20px;
+}
+
+.faq-item, .news-item, .contact-info {
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-column {
+    width: 22%;
+}
+
+.footer-column h3 {
+    margin-bottom: 20px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    text-decoration: none;
+    color: #333;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+footer p {
+    text-align: center;
+    margin: 0;
+}
+
+.instagram-images {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.instagram-images img {
+    width: 48%;
+    margin: 1%;
+}
+/* Add transitions for card hover effect */
+.cards .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.cards .card:hover {
+    transform: translateY(-5px);
+}
+
+/* Adjust FAQ items to include answers */
+.faq-item:nth-child(1):before {
+    content: "Q: ";
+    font-weight: bold;
+}
+
+.faq-item:nth-child(2):before {
+    content: "Q: ";
+    font-weight: bold;
+}
+
+.faq-item:nth-child(3):before {
+    content: "Q: ";
+    font-weight: bold;
+}
+
+.faq-item:nth-child(4):before {
+    content: "Q: ";
+    font-weight: bold;
+}
+
+.faq-item:nth-child(5):before {
+    content: "Q: ";
+    font-weight: bold;
+}
+
+.faq-item:nth-child(1):after {
+    content: "A: We are research and brand strategy consultants specializing in healthcare.";
+}
+
+.faq-item:nth-child(2):after {
+    content: "A: Lorem ipsum is simply dummy text of the printing and typesetting industry.";
+}
+
+.faq-item:nth-child(3):after {
+    content: "A: We work with client teams to help them unlock their potential.";
+}
+
+.faq-item:nth-child(4):after {
+    content: "A: Our uniqueness comes not just from what we do but also the way that we do it.";
+}
+
+.faq-item:nth-child(5):after {
+    content: "A: Our innovative approach to research is all about going beyond the obvious.";
+}
+.social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+.hero-buttons a {
+    transition: background-color 0.3s ease;
+}
+
+.hero-buttons a:hover {
+    background-color: #ff5733; /* Change to your desired color */
+}
+.cards .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.cards .card:hover {
+    transform: translateY(-5px);
+}
+.footer-column ul li a {
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #ff5733; /* Change to your desired color */
+}
+header {
+    background-image: url('new1.png');
+    background-size: cover;
+    background-position: center;
+}
+header {
+    background-image: url('new1.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Additional styles */
+.social-icons a {
+    transition: transform 0.3s ease;
+}
+
+.social-icons a:hover {
+    transform: scale(1.2);
+}
+
+.hero-buttons a {
+    transition: background-color 0.3s ease;
+}
+
+.hero-buttons a:hover {
+    background-color: #ff5733; /* Change to your desired color */
+}
+
+.cards .card {
+    transition: transform 0.3s ease-in-out;
+}
+
+.cards .card:hover {
+    transform: translateY(-5px);
+}
+
+.footer-column ul li a {
+    transition: color 0.3s ease;
+}
+
+.footer-column ul li a:hover {
+    color: #ff5733; /* Change to your desired color */
+}
+.agency-heading {
+    text-align: center;
+    position: relative;
+}
+
+.agency-heading img {
+    display: inline-block;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+}
+footer {
+    position: relative;
+    background-color: black; /* Change background color if needed */
+    padding: 20px;
+}
+
+.neon-border {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #fff; /* Change shadow color for different neon effects */
+    animation: neon-glow 1.5s infinite alternate; /* Adjust animation duration as needed */
+}
+
+@keyframes neon-glow {
+    from {
+        border-color: #fff;
+        box-shadow: 0 0 10px 0 #fff;
+    }
+    to {
+        border-color: #ff00ff; /* Change glow color as needed */
+        box-shadow: 0 0 20px 10px #ff00ff; /* Change glow color as needed */
+    }
+}
+/* Add your CSS styles here */
+.neon-box {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #fff; /* Change shadow color for different neon effects */
+    animation: neon-glow 1.5s infinite alternate; /* Adjust animation duration as needed */
+}
+
+@keyframes neon-glow {
+    from {
+        border-color: #fff;
+        box-shadow: 0 0 10px 0 #fff;
+    }
+    to {
+        border-color: #ff00ff; /* Change glow color as needed */
+        box-shadow: 0 0 20px 10px #ff00ff; /* Change glow color as needed */
+    }
+}
+ /* Add your CSS styles here */
+ .neon-box {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #fff; /* Change shadow color for different neon effects */
+    animation: neon-glow 1.5s infinite alternate; /* Adjust animation duration as needed */
+}
+
+@keyframes neon-glow {
+    from {
+        border-color: #fff;
+        box-shadow: 0 0 10px 0 #fff;
+    }
+    to {
+        border-color: #ff00ff; /* Change glow color as needed */
+        box-shadow: 0 0 20px 10px #ff00ff; /* Change glow color as needed */
+    }
+}
+  /* Add your CSS styles here */
+  body {
+    background-color: black; /* Change background color as needed */
+}
+
+.neon-border {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #fff; /* Change shadow color for different neon effects */
+    animation: neon-glow 1.5s infinite alternate; /* Adjust animation duration as needed */
+    z-index: -1;
+}
+
+@keyframes neon-glow {
+    from {
+        border-color: #fff;
+        box-shadow: 0 0 10px 0 #fff;
+    }
+    to {
+        border-color: #ff00ff; /* Change glow color as needed */
+        box-shadow: 0 0 20px 10px #ff00ff; /* Change glow color as needed */
+    }
+}
+.neon-box {
+    border: 2px solid #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px 10px #fff;
+    padding: 20px;
+    animation: neon-glow 1.5s infinite alternate;
+    z-index: -1;
+}
+
+@keyframes neon-glow {
+    from {
+        border-color: #fff;
+        box-shadow: 0 0 10px 0 #fff;
+    }
+    to {
+        border-color: #ff00ff; /* Change glow color as needed */
+        box-shadow: 0 0 20px 10px #ff00ff; /* Change glow color as needed */
+    }
+}
